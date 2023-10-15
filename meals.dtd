@@ -1,0 +1,24 @@
+<!-- Define the document element and its children -->
+<!ELEMENT meals (brekfast+, lunch+, dinner+)>
+<!ELEMENT brekfast (drinks+, fruit*, strach*, cereal*, protein*)>
+<!ELEMENT drinks(#PCDATA)>
+<!ELEMENT fruit(#PCDATA)>
+<!ELEMENT strach(#PCDATA)>
+<!ELEMENT cereal(#PCDATA)>
+<!ELEMENT protien(#PCDATA)>
+<!ELEMENT lunch (appetiser*, maindish*, drink*, dessert*)>
+<!ELEMENT appertiser(#PCDATA)>
+<!ELEMENT maindish(#PCDATA)>
+<!ELEMENT dessert(#PCDATA)>
+<!ELEMENT dinner(#PCDATA)>
+<!ELEMENT dinner(appertiser*, maindish*, drink*, dessert)>
+
+<!-- Define the element attributes -->
+<!ATTLIST drink type (beverage | softdrink | alcohol) "beverage">
+<!ATTLIST dessert taste (sweet | sour | plain) "plain">
+<!ATTLIST dessert temperature (hot | warm | chilled | cold) "chilled">
+
+<!-- Define the document entities -->
+<!ENTITY sw "served with">
+<!ENTITY nfs "not for sale to person under 18!!">
+<!ENTITY en "Enjoy your Meal">

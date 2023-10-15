@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/meals.css"?>
+<!DOCTYPE meals SYSTEM "../dtd/meals.dtd">
+<meals>
+  <breakfast>
+    <drink type="beverage">black coffee</drink>
+    <drink>Tea</drink>
+    <fruits>Apple</fruits>
+    <starch>bread</starch>
+  </breakfast>
+  <lunch>
+    <appetiser>Vegetable Salad</appetiser>
+    <maindish>Pilau &deg; camel meat</maindish>
+    <drink type="beverage">cocktail</drink>
+  </lunch>
+</meals>
